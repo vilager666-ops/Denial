@@ -1,0 +1,134 @@
+body {
+	background-color: #222222;
+	margin: 0px; 
+    padding: 0px; 
+}
+
+#header {
+	background-color: #111112;
+	width: 100%;
+	height: 150px;
+	min-height: 15vh;
+	position: absolute;
+}
+
+#main {
+	background-color: #222222;
+	width: 100%;
+	height: 650px;
+	min-height: 70vh;
+}
+
+#footer {
+	background-color: #111112;
+	width: 100%;
+	height: 150px;
+    min-height: 15vh;
+    position: absolute;
+    bottom: 0;
+}
+
+#name {
+	color: orange;
+	font-size: 300%;
+	vertical-align: top;
+	margin-top: 55px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+#img1 {
+	bottom: -65px;
+	right: -90px;
+	position: absolute;
+}
+
+#img2 {
+	left: -90px;
+	bottom: -65px;
+	position: absolute;
+}
+
+.ft {
+	color: orange;
+}
+
+#ft {
+    position: relative;	 
+    bottom: -15px;
+}
+
+a {
+	color: orange;
+}
+
+#imga1 {
+	width: 20%;
+	height: auto;
+	margin-left: 2%;
+	margin-top: 290px;
+	border-radius: 20px;
+	border: 10px solid orange;
+}
+
+#imga2 {
+    width: 20%;
+	height: auto;
+	margin-left: 4%;
+	border-radius: 20px;
+	border: 10px solid orange;
+}
+
+#imga3 {
+    width: 20%;
+	height: auto;
+	margin-left: 4%;
+	border-radius: 20px;
+	border: 10px solid orange;
+}
+
+#imga4 {
+    width: 20%;
+	height: auto;
+	margin-left: 4%;
+	border-radius: 20px;
+	border: 10px solid orange;
+}
+
+#mail:hover {
+	text-decoration: underline;
+}
+
+.ft:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+span {
+	background-color: black;
+	border-radius: 10px;
+	color: white;
+}
+
+#pr1 {
+	margin-left: 5%;
+}
+
+#pr2 {
+	margin-left: 16%;
+}
+
+#pr3 {
+	margin-left: 18%;
+}
+
+#pr4 {
+	margin-left: 20%;
+}
+
+#price {
+	 font-size: 30px;
+}
+

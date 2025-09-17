@@ -1,0 +1,21 @@
+i {
+	color:violet;
+}
+
+strike {
+	color:lime;
+}
+
+.text1 {
+	color:orange;
+}
+
+#text2 {
+	color:lightblue;
+}
+
+div b, div i, div strike {
+	color:greenyellow;
+}
+
+/* комментарий */
