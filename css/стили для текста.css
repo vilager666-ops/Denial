@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+.main {
+	color: orange;
+	text-align: center;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: bold;
+	font-family: 'EB Garamond', serif;
+
+	word-spacing: 2px;
+    cursor: pointer;
+}
+
+body {
+	background-color: #2c2d2c;
+}
+
+/* front-style: italic - курсив */

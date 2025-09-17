@@ -1,0 +1,41 @@
+.main_link {
+	color:red;
+	text-decoration:none;
+}
+
+.main_link:hover {
+	color:blue;
+	text-decoration:underline;
+	text-decoration-color:orange;
+	cursor:pointer;
+} 
+
+.main_link:active {
+    text-decoration:line-through;
+}
+
+input {color: blue}
+input:focus {color: red}
+
+p.text:not(:empty) {
+  color:pink;
+}
+
+#some::after {
+   content: "123"; 
+   text-decoration:underline; 
+}
+
+p.text:not(:empty)::after {
+  content:"666";
+  text-decoration:underline;
+}
+
+p.main_link:first-letter {
+	color: green;
+}
+
+p.lor:first-line {
+	color:yellow;
+}
+
